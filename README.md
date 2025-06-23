@@ -47,3 +47,46 @@ This tool is intended for:
 git clone https://github.com/wojtekSit/flood-report.git
 cd flood-report
 npm install
+
+Database Setup
+Create a PostgreSQL database.
+
+Enable the PostGIS extension.
+
+Run the SQL scripts provided in the /sql/ directory to set up the schema.
+
+Update the database connection settings in the app’s configuration file.
+
+Start the Server
+bash
+Copy
+Edit
+npm start
+Open your browser at http://localhost:3000
+
+Usage
+Navigate the map to your local area.
+
+Click on an embankment or use the form to report a new issue.
+
+Fill in the details: type of issue, severity, and description.
+
+Submit and track the report.
+
+Screenshots
+
+License
+This project is licensed under the MIT License.
+
+Author
+Wojciech Sitko
+Engineering Thesis – Wydział Geoinżynierii, Górnictwa i Geologii
+PWR Wroclaw University of Science and Technology, Wrocław
+Advisor: Dr Krzysztof Chudy
+
+Acknowledgments
+Leaflet.js for interactive maps
+
+PostGIS for spatial data capabilities
+
+PWR for academic support
